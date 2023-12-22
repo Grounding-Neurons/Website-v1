@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
-        'quicksand': ['Quicksand', 'sans-serif']
+        inter: ['var(--font-inter)'],
+        quicksand: ['var(--font-quicksand)']
       },
     },
   },
