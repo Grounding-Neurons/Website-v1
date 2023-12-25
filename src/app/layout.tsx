@@ -4,11 +4,11 @@ import 'styles/globals.css';
 
 export const inter = Inter({ subsets: ['latin'], variable: '--font-inter'});
 export const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand' });
-export const libre_caslon_text = Libre_Caslon_Text({ subsets: ['latin'], weight: ['400'], variable: '--font-libre_calson_text' });
+export const libre_caslon_text = Libre_Caslon_Text({ subsets: ['latin'], weight: ['400'], variable: '--font-libre_caslon_text' });
 
 export const metadata: Metadata = {
   title: 'Grounding Neurons',
-  description: 'Official home of Grounding Neurons, a neuroscience- 501(c)(3) nonprofit organization.',
+  description: 'Official home of Grounding Neurons, a neuroscience 501(c)(3) nonprofit organization.',
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${quicksand.className}`}>{children}</body>
+      <body className={`${inter.className} ${quicksand.className} ${libre_caslon_text.className}`}>{children}</body>
     </html>
   )
 };
