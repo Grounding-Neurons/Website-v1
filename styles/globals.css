@@ -12,6 +12,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.arrow-pop-out-animation {
+  
+}
+
 /* CREDIT (MODIFIED): https://github.com/Chalarangelo/30-seconds-of-code/blob/master/content/snippets/css/s/hover-underline-animation.md */
 .hover-underline-animation {
   display: inline-block;
