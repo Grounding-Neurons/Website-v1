@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['var(--font-inter)'],
-        quicksand: ['var(--font-quicksand)'],
-        librecaslontext: ['var(--font-libre_caslon_text)']
+        "inter": ['var(--font-inter)'],
+        "quicksand": ['var(--font-quicksand)'],
+        "librecaslontext": ['var(--font-libre_caslon_text)']
       },
     },
   },
