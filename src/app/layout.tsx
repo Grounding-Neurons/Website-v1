@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${quicksand.className} ${libre_caslon_text.className}`}>{children}</body>
+      <body className={`${inter.variable} ${quicksand.variable} ${libre_caslon_text.variable}`}>{children}</body>
     </html>
   )
 };

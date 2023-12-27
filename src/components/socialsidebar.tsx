@@ -25,7 +25,7 @@ const SocialSideBar = () => {
     );
 
     return (
-        <div className={`pt-64 flex flex-col fixed items-end w-full`}>
+        <div className={`z-[998] pt-64 flex flex-col fixed items-end w-full`}>
             <div className={`px-3 py-2 rounded-tl-lg rounded-bl-lg ${isScrolled ? 'bg-slate-400' : ''} transition-all`}>
                 <Link className='py-2 block' href='https://twitter.com/groundneurons' target='_blank' rel='noopener noreferrer'>
                     <FaXTwitter size={24} className='invert'/>
