@@ -12,8 +12,29 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.arrow-pop-out-animation {
-  
+.sideways-text {
+  text-orientation: mixed;
+}
+
+.slide-animation-short {
+  animation: slideFromBottom 0.4s ease-out;
+}
+.slide-animation-medium {
+  animation: slideFromBottom 0.7s ease-out;
+}
+.slide-animation-long {
+  animation: slideFromBottom 1s ease-out;
+}
+
+@keyframes slideFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* CREDIT (MODIFIED): https://github.com/Chalarangelo/30-seconds-of-code/blob/master/content/snippets/css/s/hover-underline-animation.md */
