@@ -11,10 +11,12 @@ const config: Config = {
       fontFamily: {
         "inter": ['var(--font-inter)'],
         "quicksand": ['var(--font-quicksand)'],
-        "librecaslontext": ['var(--font-libre_caslon_text)']
+        "librecaslontext": ['var(--font-libre_caslon_text)'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 export default config
