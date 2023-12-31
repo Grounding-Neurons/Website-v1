@@ -7,7 +7,6 @@ const PersonProfile = (
     {firstName, lastName, position, school, linkedin, email }:
     {firstName:string, lastName:string, position:string, school:string, linkedin:string, email:string}) => 
 {
-
     let img = `/assets/people/${firstName}.jpeg`;
 
     return (

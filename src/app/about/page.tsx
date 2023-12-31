@@ -11,12 +11,12 @@ import background from '/public/assets/backgrounds/bgabout.jpg';
 
 export default function Contact() {
     return (
-        <main>
+        <main className='bg-white'>
             <NavBar page='about'/>
             <SocialSideBar page='about'/>
 
             {/* HERO */}
-            <div className='pt-20 flex relative justify-center items-center h-[35vh]'>
+            <div id='triggerElement' className='pt-20 flex relative justify-center items-center h-[35vh]'>
                 <Image src={background} fill={true} priority={true} quality={100} alt='' className='z-0 object-cover object-center'/>
                 <div className='absolute flex justify-center items-center underline-animation-container'>
                     <p className='font-librecaslontext text-white text-4xl underline-offset-[14px] slide-animation-short underline-text-animation'>About Grounding Neurons</p>
