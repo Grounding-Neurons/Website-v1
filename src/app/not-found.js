@@ -7,9 +7,10 @@ import gnLogoCircle from '/public/assets/GroundingNeuronsCircle.png';
 
 export default async function NotFound() {
   return (
-    <main className='flex flex-col min-h-screen'>
+    <main className='flex flex-col min-h-screen bg-white'>
         <NavBar/>
         <SocialSideBar/>
+
         <div className='m-auto text-center grid min-h-full place-items-center bg-white px-6 py-32 sm:py-48 lg:px-8'>
           <Image src={gnLogoCircle} width={256} height={256} alt='Grounding Neurons Logo'/>
           <p className="mt-8 text-2xl font-semibold text-red-600">404</p>
@@ -28,6 +29,7 @@ export default async function NotFound() {
             </a>
           </div>
         </div>
+
         <Footer/>
     </main>
   );

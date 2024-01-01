@@ -24,7 +24,7 @@ const ContactForm = () => {
     <div className="isolate bg-white px-6 py-24 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold font-librecaslontext tracking-tight text-red-600 sm:text-4xl slide-animation-medium">Let's get in touch!</h2>
-        <p className="mt-4 text-lg leading-8 text-gray-600 font-librecaslontext">
+        <p className="mt-4 text-base sm:text-lg leading-8 text-gray-600 font-librecaslontext">
           Have a question, inquiry, or proposal? Please complete the form below, and we'll get back to you as soon as possible.
         </p>
       </div>
