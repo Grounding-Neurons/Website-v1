@@ -7,11 +7,11 @@ const DonateFooter = () => {
     return (
         <div className='flex flex-col pt-24 pb-12 sm:py-24 items-center'>
             <div className='bg-gray-300 h-[2px] w-full max-w-[90vw]'/>
-            <div className='sm:mt-16 flex flex-col sm:flex-row justify-center items-center max-w-7xl'>
-                <Image src={gnLogoCircle} width={128} height={128} alt='Grounding Neurons Logo' className='py-8 sm:py-0'/>
-                <div className='flex flex-col mb-8 sm:mb-0 mx-10 text-center sm:text-left font-librecaslontext'>
+            <div className='sm:mt-16 flex flex-col lg:flex-row justify-center items-center max-w-7xl'>
+                <Image src={gnLogoCircle} width={128} height={128} alt='Grounding Neurons Logo' className='py-8 lg:py-0'/>
+                <div className='flex flex-col mb-8 lg:mb-0 mx-10 text-center lg:text-left font-librecaslontext'>
                     <h1 className='text-red-600 text-2xl font-bold underlineunderline-offset-4'>Your contribution is pivotal.</h1>
-                    <p className='mt-2 text-lg max-w-[500px]'>
+                    <p className='mt-4 text-base sm:text-lg max-w-[500px]'>
                         Every dollar donated plays a crucial role in narrowing the gap in epilepsy care across Africa. Together, we can make a lasting impact on those in need.
                     </p>
                 </div>

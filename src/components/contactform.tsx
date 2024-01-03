@@ -23,7 +23,7 @@ const ContactForm = () => {
   return (
     <div className="isolate bg-white px-6 py-24 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold font-librecaslontext tracking-tight text-red-600 sm:text-4xl slide-animation-medium">Let's get in touch!</h2>
+        <h2 className="text-3xl font-bold font-librecaslontext tracking-tighter sm:tracking-tight text-red-600 sm:text-4xl slide-animation-medium">Let's get in touch!</h2>
         <p className="mt-4 text-base sm:text-lg leading-8 text-gray-600 font-librecaslontext">
           Have a question, inquiry, or proposal? Please complete the form below, and we'll get back to you as soon as possible.
         </p>
@@ -37,7 +37,7 @@ const ContactForm = () => {
             <div className="mt-2.5">
               <input
                 type="text" name="first-name" id="first-name" autoComplete="given-name" required={true}
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -48,7 +48,7 @@ const ContactForm = () => {
             <div className="mt-2.5">
               <input
                 type="text" name="last-name" id="last-name" autoComplete="family-name" required={true}
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ const ContactForm = () => {
             <div className="mt-2.5">
               <input
                 type="text" name="company" id="company" autoComplete="organization"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 text-sm sm:leading-6"
                 placeholder='Ex: Grounding Neurons'
               />
             </div>
@@ -71,7 +71,7 @@ const ContactForm = () => {
             <div className="mt-2.5">
               <input
                 type="email" name="email" id="email" autoComplete="email" required={true}
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 text-sm sm:leading-6"
                 placeholder='you@example.com'
               />
             </div>
@@ -84,7 +84,7 @@ const ContactForm = () => {
             <div className="mt-2.5">
               <textarea
                 name="message" id="message" rows={4} required={true}
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 text-sm sm:leading-6"
                 placeholder='Your message...'
               />
             </div>

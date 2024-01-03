@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${quicksand.variable} ${libre_caslon_text.variable} bg-[#f47356]`}>{children}</body>
+      <body className={`${inter.variable} ${quicksand.variable} ${libre_caslon_text.variable} bg-white`}>{children}</body>
       {/* reCAPTCHA script load */}
       <Script src="https://www.google.com/recaptcha/api.js?render={6LchVUApAAAAAPOJ1Plh_LSUXYQG3DCQwffMVqac}"/>
     </html>
